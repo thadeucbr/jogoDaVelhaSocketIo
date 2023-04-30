@@ -1,0 +1,30 @@
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+td {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid black;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+td:hover {
+  background-color: #ddd;
+}
+
+td:active {
+  background-color: #ccc;
+}
+
+button {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
